@@ -1,15 +1,16 @@
 import 'source-map-support/register';
 import { APIGatewayProxyEvent, APIGatewayProxyResult, APIGatewayProxyHandler } from 'aws-lambda';
-import { generateUploadUrl } from '../../businessLogic/todos';
+import { getTodo } from '../../businessLogic/todos';
 import { createLogger } from '../../utils/logger';
 import { getToken } from '../../utils/getJwt';
+import { TodoItem } from '../../models/Todo.d';
 
-const logger = createLogger('GenerateUploadUrl');
+const logger = createLogger('getTodo');
 
 export const handler: APIGatewayProxyHandler = async (
   event: APIGatewayProxyEvent
 ): Promise<APIGatewayProxyResult> => {
-  logger.info('Processing GenerateUploadUrl event...');
+  logger.info('Processing GetTodo event...');
   const jwtToken: string = getToken(event);
   const todoId = event.pathParameters.todoId;
   const headers = {
@@ -18,12 +19,12 @@ export const handler: APIGatewayProxyHandler = async (
   };
 
   try {
-    const signedUrl: string = await generateUploadUrl(jwtToken, todoId);
-    logger.info('Successfully created signed url.');
+    const todoItem: TodoItem = await getTodo(jwtToken, todoId);
+    logger.info(`Successfully retrieved todo item: ${todoId}`);
     return {
-      statusCode: 201,
+      statusCode: 200,
       headers,
-      body: JSON.stringify({ uploadUrl: signedUrl })
+      body: JSON.stringify({ todoItem })
     };
   } catch (error) {
     logger.error(`Error: ${error.message}`);
