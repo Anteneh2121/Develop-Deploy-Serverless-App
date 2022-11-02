@@ -1,6 +1,6 @@
-<p> Get to know the me:<p>
+<p> About me:<p>
 
-<p>Backends</p>
+<p>Backends | Cloud</p>
 :boy: <b>Anteneh Bizuneh</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <a href="https://twitter.com/">Twitter</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/">Github</a>
