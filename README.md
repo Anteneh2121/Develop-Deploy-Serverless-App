@@ -289,3 +289,12 @@ Right click on the imported collection to set variables for the collection:
 Provide variables for  the collection (similarly to how this was done in the course):
 
 ![Alt text](images/import-collection-5.png?raw=true "Image 5")
+
+
+<p> Get to know the developers:<p>
+
+<p>Backends</p>
+:boy: <b>Anteneh Bizuneh</b> <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <a href="https://twitter.com/">Twitter</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/">Github</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com">Linkedin</a> ]<br><br>
