@@ -1,3 +1,11 @@
+<p> Get to know the me:<p>
+
+<p>Backends</p>
+:boy: <b>Anteneh Bizuneh</b> <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <a href="https://twitter.com/">Twitter</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/">Github</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com">Linkedin</a> ]<br><br>
+
 # Serverless TODO
 
 To implement this project, you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all comments starting with the `TODO:` in the code to find the placeholders that you need to implement.
@@ -291,10 +299,4 @@ Provide variables for  the collection (similarly to how this was done in the cou
 ![Alt text](images/import-collection-5.png?raw=true "Image 5")
 
 
-<p> Get to know the developers:<p>
 
-<p>Backends</p>
-:boy: <b>Anteneh Bizuneh</b> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <a href="https://twitter.com/">Twitter</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/">Github</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com">Linkedin</a> ]<br><br>
